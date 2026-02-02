@@ -69,14 +69,15 @@ for repeat in 1..outer_repeats:
 - Additional metrics: PR AUC and log loss (configurable).
 - PFI uses the **primary** metric for permutation scoring.
 - SHAP importance = mean absolute SHAP value over test samples.
-- PFI importance = mean change in primary metric over permutations (std tracked
-  separately as within-fold permutation uncertainty).
+- PFI importance = baseline metric − permuted metric (mean decrease in primary
+  metric over permutations; std tracked separately as within-fold uncertainty).
 
 ## Artifacts
 
 Each run produces a run directory with:
 
-- `results.csv` with fold-level metrics, SHAP importances, and PFI importances.
+- `results.csv` with fold-level metrics, SHAP importances, PFI importances, and
+  per-feature PFI permutation std (`pfi_std_*` columns).
 - `run_metadata.json` capturing run id, seed, and environment.
 - `run.log` with structured logging.
 
