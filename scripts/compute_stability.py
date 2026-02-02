@@ -4,15 +4,10 @@ from __future__ import annotations
 
 import argparse
 from pathlib import Path
-import sys
 
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parents[1]
-if str(ROOT) not in sys.path:
-    sys.path.insert(0, str(ROOT))
-
-from stability_metrics import write_stability_summary  # noqa: E402
+from shap_stability.metrics.stability import write_stability_summary  # noqa: E402
 
 
 def parse_args() -> argparse.Namespace:
