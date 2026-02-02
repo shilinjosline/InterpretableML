@@ -24,13 +24,14 @@ def _toy_results() -> pd.DataFrame:
 
 def test_summarize_stability_returns_expected_fields() -> None:
     frame = _toy_results()
-    summaries = summarize_stability(frame, ratios=[0.1], method="shap")
+    summaries = summarize_stability(frame, ratios=[0.1], method="shap", variant="magnitude")
 
     assert len(summaries) == 1
     summary = summaries[0]
     assert summary.method == "shap"
     assert summary.ratio == 0.1
     assert summary.n_folds == 3
+    assert summary.variant == "magnitude"
     assert np.isfinite(summary.mean_rank_corr)
     assert summary.mean_magnitude_var >= 0
 
@@ -53,7 +54,8 @@ def test_write_stability_summary_writes_csv(tmp_path: Path) -> None:
 
     assert out_path.exists()
     assert set(out_frame["method"]) == {"shap", "pfi"}
-    assert len(out_frame) == 2
+    assert set(out_frame["variant"]) == {"magnitude", "directional"}
+    assert len(out_frame) == 4
 
 
 def test_dispersion_nan_for_zero_importance() -> None:
@@ -66,7 +68,7 @@ def test_dispersion_nan_for_zero_importance() -> None:
     )
     # Expect runtime warnings from constant-input correlations / NaN means.
     with pytest.warns((RuntimeWarning, UserWarning)):
-        summaries = summarize_stability(frame, ratios=[0.1], method="shap")
+        summaries = summarize_stability(frame, ratios=[0.1], method="shap", variant="magnitude")
     assert np.isnan(summaries[0].mean_dispersion)
 
 
@@ -78,7 +80,7 @@ def test_pfi_dispersion_uses_absolute_values() -> None:
             "pfi_b": [0.2, -0.2],
         }
     )
-    summaries = summarize_stability(frame, ratios=[0.1], method="pfi")
+    summaries = summarize_stability(frame, ratios=[0.1], method="pfi", variant="magnitude")
     assert np.isfinite(summaries[0].mean_dispersion)
 
 
@@ -90,7 +92,7 @@ def test_magnitude_variance_uses_normalized_values() -> None:
             "shap_b": [2.0, 4.0],
         }
     )
-    summaries = summarize_stability(frame, ratios=[0.1], method="shap")
+    summaries = summarize_stability(frame, ratios=[0.1], method="shap", variant="magnitude")
     assert summaries[0].mean_magnitude_var == 0.0
 
 
@@ -102,5 +104,5 @@ def test_prefix_removal_only_strips_leading() -> None:
             "shap_other": [0.1],
         }
     )
-    summaries = summarize_stability(frame, ratios=[0.1], method="shap")
+    summaries = summarize_stability(frame, ratios=[0.1], method="shap", variant="magnitude")
     assert summaries[0].n_folds == 1
