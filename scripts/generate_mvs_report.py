@@ -479,6 +479,16 @@ def generate_report(results_dir: Path) -> None:
     )
     agreement_table.to_csv(results_dir / "agreement_table.csv", index=False)
 
+    notes_path = results_dir / "mvs_report_notes.md"
+    notes = [
+        "# MVS Report Notes",
+        "",
+        "- Directional variant preserves sign for correlation/cosine metrics.",
+        "- Top-k overlap is magnitude-based in both variants to reflect important-feature membership.",
+        f"- Agreement/stability top-k uses k={top_k} from run metadata.",
+    ]
+    notes_path.write_text("\n".join(notes) + "\n", encoding="utf-8")
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate MVS plots/tables")
