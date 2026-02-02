@@ -748,6 +748,7 @@ def _render_summary(
             "- Magnitude-variance plots show mean with bootstrap SD across folds (dispersion, not inferential CIs).",
             "- Directional variant preserves sign for correlation/cosine metrics; top-k overlap uses magnitudes to track important-feature membership.",
             f"- Agreement/stability top-k uses k={top_k} from run metadata.",
+            "- SHAP importance = mean absolute SHAP value over test samples; PFI importance = baseline metric − permuted metric (mean decrease).",
         ]
     )
 
