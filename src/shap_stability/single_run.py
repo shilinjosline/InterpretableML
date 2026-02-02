@@ -19,7 +19,7 @@ from shap_stability.experiment_utils import (
     generate_run_id,
     set_global_seed,
 )
-from shap_stability.data import load_german_credit
+from shap_stability.data import load_german_credit, one_hot_encode_train_test
 from shap_stability.metrics.metrics_utils import parse_metrics_config
 from shap_stability.explain.pfi_utils import compute_pfi_importance
 from shap_stability.resampling import resample_train_fold
@@ -33,12 +33,6 @@ class RunArtifacts:
     results_path: Path
     metadata_path: Path
     log_path: Path
-
-
-def _prepare_features(X: pd.DataFrame) -> pd.DataFrame:
-    frame = pd.DataFrame(X).copy()
-    encoded = pd.get_dummies(frame, drop_first=False)
-    return encoded.reindex(sorted(encoded.columns), axis=1)
 
 
 def _compute_metrics(y_true: pd.Series, y_proba: np.ndarray) -> dict[str, float]:
@@ -111,7 +105,7 @@ def run_single_experiment(
     else:
         X_raw, y = data
 
-    X = _prepare_features(X_raw)
+    X = X_raw.copy()
 
     outer_folds = int(cfg["cv"].get("outer_folds", 3))
     outer_repeats = int(cfg["cv"].get("outer_repeats", 1))
@@ -142,10 +136,11 @@ def run_single_experiment(
         outer_repeats=outer_repeats,
         seed=seed,
     ):
-        X_train = X.iloc[train_idx]
+        X_train_raw = X.iloc[train_idx]
         y_train = y.iloc[train_idx]
-        X_test = X.iloc[test_idx]
+        X_test_raw = X.iloc[test_idx]
         y_test = y.iloc[test_idx]
+        X_train, X_test = one_hot_encode_train_test(X_train_raw, X_test_raw)
 
         for ratio in ratios:
             resampled = resample_train_fold(

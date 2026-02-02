@@ -15,7 +15,7 @@ from shap_stability.experiment_utils import configure_logging  # noqa: E402
 from shap_stability.experiment_utils import create_run_metadata  # noqa: E402
 from shap_stability.experiment_utils import generate_run_id  # noqa: E402
 from shap_stability.experiment_utils import set_global_seed  # noqa: E402
-from shap_stability.data import load_german_credit  # noqa: E402
+from shap_stability.data import load_german_credit, one_hot_encode_train_test  # noqa: E402
 from shap_stability.modeling.hpo_utils import HPOResult, select_best_params  # noqa: E402
 from shap_stability.explain.pfi_utils import compute_pfi_importance  # noqa: E402
 from shap_stability.resampling import resample_train_fold  # noqa: E402
@@ -65,8 +65,6 @@ def main() -> None:
     )
 
     X_raw, y = load_german_credit()
-    X = pd.get_dummies(X_raw, drop_first=False)
-    X = X.reindex(sorted(X.columns), axis=1)
 
     ratios = [0.1, 0.3, 0.5]
     results_path = results_dir / "results.csv"
@@ -84,10 +82,11 @@ def main() -> None:
             outer.fold_id,
             outer.seed,
         )
-        X_train = X.iloc[outer.train_idx]
+        X_train_raw = X_raw.iloc[outer.train_idx]
         y_train = y.iloc[outer.train_idx]
-        X_test = X.iloc[outer.test_idx]
+        X_test_raw = X_raw.iloc[outer.test_idx]
         y_test = y.iloc[outer.test_idx]
+        X_train, X_test = one_hot_encode_train_test(X_train_raw, X_test_raw)
 
         for ratio in ratios:
             logger.info("Resampling ratio=%.2f", ratio)
@@ -101,20 +100,23 @@ def main() -> None:
                 resampled.positive_count + resampled.negative_count
             )
             def _inner_resample(
-                X_inner: pd.DataFrame,
+                X_inner_raw: pd.DataFrame,
                 y_inner: pd.Series,
                 seed: int,
             ) -> tuple[pd.DataFrame, pd.Series]:
                 inner_resampled = resample_train_fold(
-                    X_inner,
+                    X_inner_raw,
                     y_inner,
                     target_positive_ratio=ratio,
                     random_state=seed,
                 )
-                return inner_resampled.X, inner_resampled.y
+                inner_X, _ = one_hot_encode_train_test(
+                    inner_resampled.X, inner_resampled.X
+                )
+                return inner_X, inner_resampled.y
 
             best_params, best_score = select_best_params(
-                X_train,
+                X_train_raw,
                 y_train,
                 param_grid=PARAM_GRID,
                 metric_name="roc_auc",
