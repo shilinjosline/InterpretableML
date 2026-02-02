@@ -48,12 +48,14 @@ def _topk_overlap(a: pd.Series, b: pd.Series, k: int) -> float:
     return len(top_a.intersection(top_b)) / float(denom)
 
 
-def _pairwise_topk_overlap(values: pd.DataFrame, k: int) -> list[float]:
+def _pairwise_topk_overlap(values: pd.DataFrame, k: int, *, use_abs: bool) -> list[float]:
     cols = list(values.columns)
     overlaps: list[float] = []
     for i in range(len(cols)):
         for j in range(i + 1, len(cols)):
-            overlaps.append(_topk_overlap(values[cols[i]], values[cols[j]], k))
+            left = values[cols[i]].abs() if use_abs else values[cols[i]]
+            right = values[cols[j]].abs() if use_abs else values[cols[j]]
+            overlaps.append(_topk_overlap(left, right, k))
     return overlaps
 
 
@@ -121,7 +123,9 @@ def summarize_stability(
         ranks = variant_values.apply(_rank_vector, axis=0)
         corrs = _pairwise_corr(ranks)
         mean_corr = float(np.mean(corrs)) if corrs else float("nan")
-        overlaps = _pairwise_topk_overlap(variant_values, top_k)
+        overlaps = _pairwise_topk_overlap(
+            variant_values, top_k, use_abs=(variant == "directional")
+        )
         mean_topk = float(np.nanmean(overlaps)) if overlaps else float("nan")
         magnitude_var = _magnitude_variance(variant_values)
         dispersions = [_dispersion(variant_values[col]) for col in values.columns]

@@ -119,4 +119,18 @@ def test_directional_agreement_differs_from_magnitude() -> None:
     directional = summarize_agreement(frame, ratios=[0.1], top_k=1, variant="directional")
 
     assert magnitude[0].mean_topk_overlap == 1.0
-    assert directional[0].mean_topk_overlap == 0.0
+    assert directional[0].mean_topk_overlap == 1.0
+
+
+def test_directional_topk_overlap_uses_magnitude() -> None:
+    frame = pd.DataFrame(
+        {
+            "class_ratio": [0.1, 0.1],
+            "shap_a": [-0.9, -0.8],
+            "shap_b": [0.1, 0.2],
+            "pfi_a": [-0.7, -0.6],
+            "pfi_b": [0.05, 0.1],
+        }
+    )
+    directional = summarize_agreement(frame, ratios=[0.1], top_k=1, variant="directional")
+    assert directional[0].mean_topk_overlap == 1.0

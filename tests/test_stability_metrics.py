@@ -99,6 +99,18 @@ def test_directional_vs_magnitude_rank_corr_differs() -> None:
     assert directional[0].mean_rank_corr != magnitude[0].mean_rank_corr
 
 
+def test_directional_topk_overlap_uses_magnitude() -> None:
+    frame = pd.DataFrame(
+        {
+            "class_ratio": [0.1, 0.1],
+            "pfi_a": [-0.9, -0.8],
+            "pfi_b": [0.1, 0.2],
+        }
+    )
+    directional = summarize_stability(frame, ratios=[0.1], method="pfi", variant="directional", top_k=1)
+    assert directional[0].mean_topk_overlap == 1.0
+
+
 def test_magnitude_variance_uses_normalized_values() -> None:
     frame = pd.DataFrame(
         {
