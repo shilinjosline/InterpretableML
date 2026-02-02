@@ -480,20 +480,168 @@ def generate_report(results_dir: Path) -> None:
     agreement_table.to_csv(results_dir / "agreement_table.csv", index=False)
 
     summary_path = results_dir / "mvs_results_summary.md"
-    notes_block = [
-        "## Notes",
-        "- Directional variant preserves sign for correlation/cosine metrics.",
-        "- Top-k overlap is magnitude-based in both variants to reflect important-feature membership.",
-        f"- Agreement/stability top-k uses k={top_k} from run metadata.",
+    summary_text = _render_summary(
+        results,
+        stability_table=stability_table,
+        agreement_table=agreement_table,
+        metadata=metadata,
+        results_dir=results_dir,
+        ratios=ratios,
+        top_k=top_k,
+    )
+    summary_path.write_text(summary_text, encoding="utf-8")
+
+
+def _format_ratio_values(
+    frame: pd.DataFrame,
+    *,
+    ratios: list[float],
+    column: str,
+    fmt: str,
+) -> str:
+    values = []
+    for ratio in ratios:
+        value = float(frame.loc[frame["ratio"] == ratio, column].iloc[0])
+        values.append(f"{ratio:g}: {fmt.format(value)}")
+    return ", ".join(values)
+
+
+def _render_summary(
+    results: pd.DataFrame,
+    *,
+    stability_table: pd.DataFrame,
+    agreement_table: pd.DataFrame,
+    metadata: dict,
+    results_dir: Path,
+    ratios: list[float],
+    top_k: int,
+) -> str:
+    run_id = metadata.get("run_id", results_dir.name)
+    model_names = sorted(set(results.get("model_name", [])))
+    model_label = (
+        "XGBoost + TreeSHAP" if model_names == ["xgboost"] else ", ".join(model_names)
+    )
+    outer_folds = int(metadata.get("outer_folds", 0))
+    outer_repeats = int(metadata.get("outer_repeats", 0))
+    inner_folds = int(metadata.get("inner_folds", 0))
+    pfi_repeats = int(metadata.get("pfi_repeats", 0))
+    grid = metadata.get("param_grid", {})
+    grid_size = 1
+    for values in grid.values():
+        grid_size *= len(values)
+
+    perf = (
+        results.groupby("class_ratio")[["metric_accuracy", "metric_roc_auc"]]
+        .mean()
+        .reset_index()
+    )
+    perf_rows = [
+        f"| {ratio:g} | {acc:.3f} | {auc:.3f} |"
+        for ratio, acc, auc in perf.to_numpy()
     ]
-    if summary_path.exists():
-        summary_text = summary_path.read_text(encoding="utf-8")
-        if "Directional variant preserves sign for correlation/cosine metrics." not in summary_text:
-            summary_text = summary_text.rstrip() + "\n\n" + "\n".join(notes_block) + "\n"
-            summary_path.write_text(summary_text, encoding="utf-8")
-    else:
-        summary_text = "# MVS Results Summary\n\n" + "\n".join(notes_block) + "\n"
-        summary_path.write_text(summary_text, encoding="utf-8")
+    perf_table = "\n".join(
+        ["| Class ratio | Accuracy | ROC AUC |", "| --- | --- | --- |", *perf_rows]
+    )
+
+    variants = (
+        sorted(stability_table["variant"].unique())
+        if "variant" in stability_table.columns
+        else ["magnitude"]
+    )
+    stability_sections = []
+    for variant in variants:
+        variant_label = "Magnitude" if variant == "magnitude" else "Directional"
+        subset = (
+            stability_table[stability_table["variant"] == variant]
+            if "variant" in stability_table.columns
+            else stability_table
+        )
+        shap = subset[subset["method"] == "shap"].sort_values("ratio")
+        pfi = subset[subset["method"] == "pfi"].sort_values("ratio")
+        stability_sections.append(
+            "\n".join(
+                [
+                    f"### {variant_label}",
+                    "",
+                    "**SHAP**",
+                    f"- Rank stability (mean Spearman): {_format_ratio_values(shap, ratios=ratios, column='mean_rank_corr', fmt='{:.2f}')}.",
+                    f"- Magnitude variance: {_format_ratio_values(shap, ratios=ratios, column='mean_magnitude_var', fmt='{:.2e}')}.",
+                    "",
+                    "**PFI**",
+                    f"- Rank stability (mean Spearman): {_format_ratio_values(pfi, ratios=ratios, column='mean_rank_corr', fmt='{:.2f}')}.",
+                    f"- Magnitude variance: {_format_ratio_values(pfi, ratios=ratios, column='mean_magnitude_var', fmt='{:.2e}')}.",
+                ]
+            )
+        )
+
+    agreement_sections = []
+    for variant in variants:
+        variant_label = "Magnitude" if variant == "magnitude" else "Directional"
+        subset = (
+            agreement_table[agreement_table["variant"] == variant]
+            if "variant" in agreement_table.columns
+            else agreement_table
+        )
+        agreement_sections.append(
+            "\n".join(
+                [
+                    f"### {variant_label}",
+                    f"- Spearman agreement: {_format_ratio_values(subset, ratios=ratios, column='mean_spearman', fmt='{:.2f}')}.",
+                    f"- Top-k overlap: {_format_ratio_values(subset, ratios=ratios, column='mean_topk_overlap', fmt='{:.2f}')}.",
+                    f"- Cosine similarity: {_format_ratio_values(subset, ratios=ratios, column='mean_cosine', fmt='{:.2f}')}.",
+                ]
+            )
+        )
+
+    notes = "\n".join(
+        [
+            "## Notes / limitations",
+            "- Rank-stability and agreement plots show fold-level distributions; tables include mean plus median/IQR summaries.",
+            "- Magnitude-variance plots show mean with bootstrap SD across folds (dispersion, not inferential CIs).",
+            "- Directional variant preserves sign for correlation/cosine metrics; top-k overlap uses magnitudes to track important-feature membership.",
+            f"- Agreement/stability top-k uses k={top_k} from run metadata.",
+        ]
+    )
+
+    return "\n".join(
+        [
+            "# MVS results summary",
+            "",
+            f"Run ID: `{run_id}`",
+            f"Data source: `{results_dir.as_posix()}/`",
+            "",
+            "## Setup",
+            "",
+            "- Dataset: Statlog German Credit",
+            f"- Model: {model_label}",
+            f"- Outer CV: {outer_folds} folds × {outer_repeats} repeats ({outer_folds * outer_repeats} folds total)",
+            f"- Inner CV: {inner_folds} folds with {grid_size}-config grid",
+            "- Train-only resampling ratios: " + ", ".join(str(ratio) for ratio in ratios),
+            "- Importance methods: mean(|SHAP|) and PFI",
+            f"- PFI repeats: {pfi_repeats} per fold",
+            "",
+            "## Performance (mean across folds)",
+            "",
+            perf_table,
+            "",
+            "## Stability (within-method)",
+            "",
+            "\n\n".join(stability_sections),
+            "",
+            "## Agreement (SHAP vs PFI)",
+            "",
+            "\n\n".join(agreement_sections),
+            "",
+            notes,
+            "",
+            "## Files generated",
+            "",
+            "- `results.csv`, `stability_summary.csv`, `agreement_summary.csv`",
+            "- `stability_table.csv`, `agreement_table.csv`",
+            "- plots under `results/.../plots/`",
+            "",
+        ]
+    )
 
 
 if __name__ == "__main__":
