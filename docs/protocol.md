@@ -14,7 +14,9 @@ current evaluation harness utilities.
 
 - Dataset: Statlog German Credit.
 - Target: binary label with "bad" as positive class (1).
-- Categorical features are one-hot encoded prior to modeling.
+- Categorical features are one-hot encoded **within each fold**:
+  fit on the training split and applied to the matching test split with
+  aligned columns.
 
 ## Splits and resampling
 
@@ -39,10 +41,12 @@ for repeat in 1..outer_repeats:
 
 ## Inner CV (hyperparameter search)
 
-- Inner CV uses stratified K-fold on the resampled training fold.
+- Inner CV uses stratified K-fold on the **original outer training fold**.
+- For each inner split, the **inner training fold is resampled** to the target
+  ratio, then encoded, and the inner test fold is encoded to the same columns.
 - Metrics for selection come from the metrics config (primary metric).
 - Best params are selected, then the model is retrained on the full resampled
-  training fold before final evaluation.
+  outer training fold (with fold-fitted encoding) before final evaluation.
 - The standalone single-run script uses fixed model params; HPO is part of the
   nested CV harness utilities.
 
