@@ -9,6 +9,8 @@ current evaluation harness utilities.
 - Compare SHAP and permutation feature importance (PFI) under training-imbalance
   changes while keeping evaluation folds untouched.
 - Ensure protocol is leakage-safe and reproducible across random seeds.
+- All ratios are evaluated on the same outer test fold within a given
+  (repeat, fold), enabling paired comparisons across ratios.
 
 ## Data and preprocessing
 
@@ -23,6 +25,8 @@ current evaluation harness utilities.
 - Use repeated stratified K-fold on the **outer** split.
 - Within each outer fold, resample only the training data to target positive
   class ratios (e.g., 0.1, 0.3, 0.5). The test fold is never resampled.
+- Resampling preserves total sample size and uses replacement when a class
+  must be oversampled.
 
 ## Nested CV flow (pseudocode)
 
@@ -56,12 +60,17 @@ for repeat in 1..outer_repeats:
   outer training fold (with fold-fitted encoding) before final evaluation.
 - The standalone single-run script uses fixed model params; HPO is part of the
   nested CV harness utilities.
+- HPO is performed per ratio, so ratio effects include both resampling and
+  ratio-specific hyperparameter choices.
 
 ## Metrics
 
 - Primary metric: ROC AUC (default).
 - Additional metrics: PR AUC and log loss (configurable).
 - PFI uses the **primary** metric for permutation scoring.
+- SHAP importance = mean absolute SHAP value over test samples.
+- PFI importance = mean change in primary metric over permutations (std tracked
+  separately as within-fold permutation uncertainty).
 
 ## Artifacts
 
