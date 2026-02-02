@@ -241,11 +241,13 @@ def _agreement_per_fold(
     for col in shap_values.columns:
         shap_vec = shap_values[col].abs() if variant == "magnitude" else shap_values[col]
         pfi_vec = pfi_values[col].abs() if variant == "magnitude" else pfi_values[col]
+        overlap_shap = shap_values[col].abs() if variant == "directional" else shap_vec
+        overlap_pfi = pfi_values[col].abs() if variant == "directional" else pfi_vec
         corr = shap_vec.corr(pfi_vec, method="spearman")
         rows.append(
             {
                 "spearman": float(corr) if corr is not None else float("nan"),
-                "topk_overlap": _topk_overlap(shap_vec, pfi_vec, top_k),
+                "topk_overlap": _topk_overlap(overlap_shap, overlap_pfi, top_k),
                 "cosine": _cosine_similarity(shap_vec, pfi_vec),
             }
         )
