@@ -76,3 +76,12 @@ MVS runs additionally generate:
 ### Protocol
 
 See `docs/protocol.md` for the nested CV protocol, metrics, and evaluation flow.
+
+### Results
+
+mvs-hpo-20260219-120608-26bacd66 - baseline
+mvs-linear-hpo-20260219-122001-6155684e - linear baseline
+mvs-hpo-20260219-171308-f36ce1ff -  0 noise tree
+mvs-hpo-aug-20260219-172801-fa40d122 - augmented noise tree 
+mvs-linear-hpo-20260219-180825-cd385ce6 - 0 noise linear
+mvs-linear-hpo-aug-20260219-183648-e060687b - augmented noise linear

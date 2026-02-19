@@ -1,0 +1,251 @@
+2026-02-19 13:20:01 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Outer fold repeat=0 fold=0 seed=42
+2026-02-19 13:20:01 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.10
+2026-02-19 13:20:15 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7436 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:20:15 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.1000
+2026-02-19 13:20:19 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.30
+2026-02-19 13:20:33 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7811 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:20:33 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.3000
+2026-02-19 13:20:37 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.50
+2026-02-19 13:20:51 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7751 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:20:51 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.5000
+2026-02-19 13:20:55 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Outer fold repeat=0 fold=1 seed=42
+2026-02-19 13:20:55 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.10
+2026-02-19 13:21:10 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7581 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:21:10 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.1000
+2026-02-19 13:21:14 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.30
+2026-02-19 13:21:29 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7874 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:21:29 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.3000
+2026-02-19 13:21:33 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.50
+2026-02-19 13:21:48 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7836 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:21:48 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.5000
+2026-02-19 13:21:52 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Outer fold repeat=0 fold=2 seed=42
+2026-02-19 13:21:52 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.10
+2026-02-19 13:22:07 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7297 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:22:07 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.1000
+2026-02-19 13:22:11 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.30
+2026-02-19 13:22:26 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7815 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:22:26 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.3000
+2026-02-19 13:22:30 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.50
+2026-02-19 13:22:45 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7768 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:22:45 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.5000
+2026-02-19 13:22:49 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Outer fold repeat=0 fold=3 seed=42
+2026-02-19 13:22:49 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.10
+2026-02-19 13:23:04 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7459 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:23:04 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.1000
+2026-02-19 13:23:08 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.30
+2026-02-19 13:23:23 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7736 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:23:23 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.3000
+2026-02-19 13:23:27 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.50
+2026-02-19 13:23:43 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7580 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:23:43 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.5000
+2026-02-19 13:23:47 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Outer fold repeat=0 fold=4 seed=42
+2026-02-19 13:23:47 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.10
+2026-02-19 13:24:02 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7427 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:24:02 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.1000
+2026-02-19 13:24:06 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.30
+2026-02-19 13:24:21 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7833 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:24:21 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.3000
+2026-02-19 13:24:25 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.50
+2026-02-19 13:24:40 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7921 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:24:40 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.5000
+2026-02-19 13:24:44 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Outer fold repeat=1 fold=0 seed=43
+2026-02-19 13:24:44 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.10
+2026-02-19 13:25:00 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7446 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:25:00 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.1000
+2026-02-19 13:25:04 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.30
+2026-02-19 13:25:21 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7812 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:25:21 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.3000
+2026-02-19 13:25:26 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.50
+2026-02-19 13:25:44 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7723 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:25:44 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.5000
+2026-02-19 13:25:49 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Outer fold repeat=1 fold=1 seed=43
+2026-02-19 13:25:49 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.10
+2026-02-19 13:26:06 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7446 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:26:06 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.1000
+2026-02-19 13:26:11 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.30
+2026-02-19 13:26:29 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7824 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:26:29 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.3000
+2026-02-19 13:26:33 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.50
+2026-02-19 13:26:51 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7679 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:26:51 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.5000
+2026-02-19 13:26:56 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Outer fold repeat=1 fold=2 seed=43
+2026-02-19 13:26:56 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.10
+2026-02-19 13:27:14 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7528 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:27:14 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.1000
+2026-02-19 13:27:18 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.30
+2026-02-19 13:27:37 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7844 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:27:37 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.3000
+2026-02-19 13:27:42 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.50
+2026-02-19 13:28:00 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7885 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:28:00 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.5000
+2026-02-19 13:28:04 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Outer fold repeat=1 fold=3 seed=43
+2026-02-19 13:28:04 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.10
+2026-02-19 13:28:23 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7224 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:28:23 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.1000
+2026-02-19 13:28:28 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.30
+2026-02-19 13:28:45 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7716 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:28:45 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.3000
+2026-02-19 13:28:50 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.50
+2026-02-19 13:29:08 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7590 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:29:08 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.5000
+2026-02-19 13:29:12 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Outer fold repeat=1 fold=4 seed=43
+2026-02-19 13:29:12 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.10
+2026-02-19 13:29:31 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7403 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:29:31 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.1000
+2026-02-19 13:29:36 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.30
+2026-02-19 13:29:51 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7769 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:29:51 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.3000
+2026-02-19 13:29:56 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.50
+2026-02-19 13:30:11 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7699 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:30:11 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.5000
+2026-02-19 13:30:16 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Outer fold repeat=2 fold=0 seed=44
+2026-02-19 13:30:16 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.10
+2026-02-19 13:30:31 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7368 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:30:31 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.1000
+2026-02-19 13:30:35 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.30
+2026-02-19 13:30:53 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7780 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:30:53 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.3000
+2026-02-19 13:30:58 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.50
+2026-02-19 13:31:15 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7815 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:31:16 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.5000
+2026-02-19 13:31:20 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Outer fold repeat=2 fold=1 seed=44
+2026-02-19 13:31:20 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.10
+2026-02-19 13:31:44 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7409 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:31:44 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.1000
+2026-02-19 13:31:49 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.30
+2026-02-19 13:32:07 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7778 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:32:07 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.3000
+2026-02-19 13:32:11 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.50
+2026-02-19 13:32:28 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7903 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:32:28 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.5000
+2026-02-19 13:32:33 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Outer fold repeat=2 fold=2 seed=44
+2026-02-19 13:32:33 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.10
+2026-02-19 13:32:53 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7610 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:32:53 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.1000
+2026-02-19 13:32:58 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.30
+2026-02-19 13:33:17 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7910 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:33:17 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.3000
+2026-02-19 13:33:22 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.50
+2026-02-19 13:33:44 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7952 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:33:44 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.5000
+2026-02-19 13:33:49 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Outer fold repeat=2 fold=3 seed=44
+2026-02-19 13:33:49 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.10
+2026-02-19 13:34:07 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7487 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:34:07 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.1000
+2026-02-19 13:34:12 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.30
+2026-02-19 13:34:28 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7808 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:34:28 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.3000
+2026-02-19 13:34:32 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.50
+2026-02-19 13:34:49 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7700 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:34:49 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.5000
+2026-02-19 13:34:53 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Outer fold repeat=2 fold=4 seed=44
+2026-02-19 13:34:53 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.10
+2026-02-19 13:35:08 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7488 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:35:08 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.1000
+2026-02-19 13:35:13 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.30
+2026-02-19 13:35:28 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7695 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:35:28 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.3000
+2026-02-19 13:35:32 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.50
+2026-02-19 13:35:46 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7629 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:35:46 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.5000
+2026-02-19 13:35:51 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Outer fold repeat=3 fold=0 seed=45
+2026-02-19 13:35:51 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.10
+2026-02-19 13:36:06 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7233 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:36:06 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.1000
+2026-02-19 13:36:10 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.30
+2026-02-19 13:36:25 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7708 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:36:25 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.3000
+2026-02-19 13:36:29 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.50
+2026-02-19 13:36:44 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7679 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:36:44 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.5000
+2026-02-19 13:36:49 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Outer fold repeat=3 fold=1 seed=45
+2026-02-19 13:36:49 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.10
+2026-02-19 13:37:04 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7455 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:37:04 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.1000
+2026-02-19 13:37:08 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.30
+2026-02-19 13:37:23 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7791 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:37:23 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.3000
+2026-02-19 13:37:27 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.50
+2026-02-19 13:37:43 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7750 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:37:43 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.5000
+2026-02-19 13:37:47 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Outer fold repeat=3 fold=2 seed=45
+2026-02-19 13:37:47 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.10
+2026-02-19 13:38:02 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7492 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:38:02 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.1000
+2026-02-19 13:38:06 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.30
+2026-02-19 13:38:22 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7875 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:38:22 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.3000
+2026-02-19 13:38:26 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.50
+2026-02-19 13:38:41 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7842 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:38:41 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.5000
+2026-02-19 13:38:45 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Outer fold repeat=3 fold=3 seed=45
+2026-02-19 13:38:45 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.10
+2026-02-19 13:39:00 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7255 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:39:00 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.1000
+2026-02-19 13:39:05 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.30
+2026-02-19 13:39:21 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7786 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:39:21 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.3000
+2026-02-19 13:39:25 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.50
+2026-02-19 13:39:41 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7705 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:39:41 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.5000
+2026-02-19 13:39:45 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Outer fold repeat=3 fold=4 seed=45
+2026-02-19 13:39:45 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.10
+2026-02-19 13:40:00 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7474 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:40:00 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.1000
+2026-02-19 13:40:05 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.30
+2026-02-19 13:40:23 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7763 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:40:23 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.3000
+2026-02-19 13:40:27 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.50
+2026-02-19 13:40:43 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7716 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:40:43 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.5000
+2026-02-19 13:40:47 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Outer fold repeat=4 fold=0 seed=46
+2026-02-19 13:40:47 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.10
+2026-02-19 13:41:03 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7318 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:41:03 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.1000
+2026-02-19 13:41:07 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.30
+2026-02-19 13:41:23 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7737 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:41:23 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.3000
+2026-02-19 13:41:27 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.50
+2026-02-19 13:41:43 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7788 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:41:43 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.5000
+2026-02-19 13:41:47 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Outer fold repeat=4 fold=1 seed=46
+2026-02-19 13:41:47 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.10
+2026-02-19 13:42:03 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7275 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:42:03 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.1000
+2026-02-19 13:42:08 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.30
+2026-02-19 13:42:24 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7795 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:42:24 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.3000
+2026-02-19 13:42:28 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.50
+2026-02-19 13:42:44 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7768 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:42:44 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.5000
+2026-02-19 13:42:49 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Outer fold repeat=4 fold=2 seed=46
+2026-02-19 13:42:49 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.10
+2026-02-19 13:43:05 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7400 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:43:05 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.1000
+2026-02-19 13:43:09 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.30
+2026-02-19 13:43:25 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7834 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:43:25 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.3000
+2026-02-19 13:43:29 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.50
+2026-02-19 13:43:45 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7813 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:43:45 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.5000
+2026-02-19 13:43:49 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Outer fold repeat=4 fold=3 seed=46
+2026-02-19 13:43:49 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.10
+2026-02-19 13:44:05 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7462 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:44:05 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.1000
+2026-02-19 13:44:09 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.30
+2026-02-19 13:44:26 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7886 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:44:26 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.3000
+2026-02-19 13:44:30 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.50
+2026-02-19 13:44:46 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7896 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:44:46 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.5000
+2026-02-19 13:44:50 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Outer fold repeat=4 fold=4 seed=46
+2026-02-19 13:44:50 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.10
+2026-02-19 13:45:06 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7312 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:45:06 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.1000
+2026-02-19 13:45:10 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.30
+2026-02-19 13:45:26 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7773 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:45:26 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.3000
+2026-02-19 13:45:31 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Resampling ratio=0.50
+2026-02-19 13:45:46 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Best HPO score=0.7842 best_params={'n_estimators': 100, 'learning_rate': 0.05, 'reg_alpha': 0.0, 'reg_lambda': 0.1}
+2026-02-19 13:45:46 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Achieved train positive ratio=0.5000
+2026-02-19 13:45:59 INFO shap-it-like-its-hot run_id=mvs-linear-hpo-20260219-122001-6155684e seed=42 Results written to results/mvs-linear-hpo-20260219-122001-6155684e

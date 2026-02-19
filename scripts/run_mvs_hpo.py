@@ -86,12 +86,11 @@ def main() -> None:
         y_train = y.iloc[outer.train_idx]
         X_test_raw = X_raw.iloc[outer.test_idx]
         y_test = y.iloc[outer.test_idx]
-        X_train, X_test = one_hot_encode_train_test(X_train_raw, X_test_raw)
 
         for ratio in ratios:
             logger.info("Resampling ratio=%.2f", ratio)
             resampled = resample_train_fold(
-                X_train,
+                X_train_raw,
                 y_train,
                 target_positive_ratio=ratio,
                 random_state=outer.seed,
@@ -136,7 +135,8 @@ def main() -> None:
             )
             logger.info("Best HPO score=%.4f", hpo.best_score)
             proba = predict_proba(hpo.model, X_test_enc)
-            shap_result = compute_tree_shap(hpo.model, X_test_enc)
+            shap_result = compute_tree_shap(hpo.model, X_test_enc, background=X_train_enc)
+
             pfi_result = compute_pfi_importance(
                 hpo.model,
                 X_test_enc,

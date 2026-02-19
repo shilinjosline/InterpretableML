@@ -10,6 +10,10 @@ import pandas as pd
 from sklearn.model_selection import StratifiedKFold
 
 from .modeling.hpo_utils import HPOResult, tune_and_train
+from .modeling.hpo_utils import TrainFn, PredictProbaFn  
+
+from shap_stability.data_augmentation import NoisyCopyConfig, add_noisy_copies_train_test
+from shap_stability.data import one_hot_encode_train_test
 
 
 @dataclass(frozen=True)
@@ -103,3 +107,54 @@ def run_inner_hpo_for_outer_folds(
             best_score=hpo_result.best_score,
             model=hpo_result.model,
         )
+
+def run_inner_hpo_for_outer_folds(
+    X: pd.DataFrame,
+    y: pd.Series,
+    *,
+    outer_folds: int,
+    outer_repeats: int,
+    inner_folds: int,
+    seed: int,
+    metric_name: str,
+    param_grid: dict[str, Iterable[Any]],
+    base_params: dict[str, Any] | None = None,
+    resample_fn: Callable[[pd.DataFrame, pd.Series, int], tuple[pd.DataFrame, pd.Series]] | None = None,
+    preprocess_fn: Callable[[pd.DataFrame, pd.DataFrame], tuple[pd.DataFrame, pd.DataFrame]] | None = None,
+    train_fn: callable | None = None,
+    predict_proba_fn: callable | None = None,
+) -> Iterator[OuterFoldResult]:
+        hpo_result: HPOResult = tune_and_train(
+        X_train,
+        y_train,
+        param_grid=param_grid,
+        metric_name=metric_name,
+        inner_folds=inner_folds,
+        seed=outer.seed,
+        base_params=base_params,
+        resample_fn=resample_fn,
+        preprocess_fn=preprocess_fn,
+        train_fn=train_fn if train_fn is not None else None,               # or omit if you prefer defaults
+        predict_proba_fn=predict_proba_fn if predict_proba_fn is not None else None,
+    )
+
+class AugmentAndEncode:
+    def __init__(self, *, cfg, numeric_cols, base_seed: int):
+        self.cfg = cfg
+        self.numeric_cols = numeric_cols
+        self.base_seed = base_seed
+        self.call_id = 0
+
+    def __call__(self, X_train, X_test):
+        # different seed each time preprocess_fn is called (inner folds etc.)
+        seed = self.base_seed + self.call_id
+        self.call_id += 1
+
+        Xtr_aug, Xte_aug = add_noisy_copies_train_test(
+            X_train, X_test,
+            numeric_cols=self.numeric_cols,
+            cfg=self.cfg,
+            seed=seed,
+        )
+        return one_hot_encode_train_test(Xtr_aug, Xte_aug)
+

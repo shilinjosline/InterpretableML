@@ -1,0 +1,3 @@
+group,count_folds
+credit_amount + duration_months,25
+credit_history + existing_credits,9

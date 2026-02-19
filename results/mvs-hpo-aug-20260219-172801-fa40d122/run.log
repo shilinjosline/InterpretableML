@@ -1,0 +1,251 @@
+2026-02-19 18:28:01 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Outer fold repeat=0 fold=0 seed=42
+2026-02-19 18:28:01 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.10
+2026-02-19 18:28:16 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7367 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:28:16 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.1000
+2026-02-19 18:28:26 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.30
+2026-02-19 18:28:42 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7840 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:28:42 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.3000
+2026-02-19 18:28:52 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.50
+2026-02-19 18:29:08 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7666 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:29:08 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.5000
+2026-02-19 18:29:18 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Outer fold repeat=0 fold=1 seed=42
+2026-02-19 18:29:18 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.10
+2026-02-19 18:29:34 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7188 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:29:34 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.1000
+2026-02-19 18:29:45 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.30
+2026-02-19 18:30:00 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7799 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:30:00 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.3000
+2026-02-19 18:30:09 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.50
+2026-02-19 18:30:24 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7789 best_params={'colsample_bytree': 1.0, 'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:30:24 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.5000
+2026-02-19 18:30:35 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Outer fold repeat=0 fold=2 seed=42
+2026-02-19 18:30:35 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.10
+2026-02-19 18:30:52 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7228 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:30:52 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.1000
+2026-02-19 18:31:03 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.30
+2026-02-19 18:31:19 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7814 best_params={'colsample_bytree': 1.0, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:31:19 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.3000
+2026-02-19 18:31:29 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.50
+2026-02-19 18:31:46 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7748 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 200, 'subsample': 0.8}
+2026-02-19 18:31:46 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.5000
+2026-02-19 18:31:56 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Outer fold repeat=0 fold=3 seed=42
+2026-02-19 18:31:56 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.10
+2026-02-19 18:32:12 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7441 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:32:12 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.1000
+2026-02-19 18:32:24 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.30
+2026-02-19 18:32:41 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7582 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:32:41 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.3000
+2026-02-19 18:32:52 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.50
+2026-02-19 18:33:09 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7401 best_params={'colsample_bytree': 1.0, 'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 200, 'subsample': 0.8}
+2026-02-19 18:33:09 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.5000
+2026-02-19 18:33:20 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Outer fold repeat=0 fold=4 seed=42
+2026-02-19 18:33:20 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.10
+2026-02-19 18:33:37 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7846 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:33:37 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.1000
+2026-02-19 18:33:47 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.30
+2026-02-19 18:34:04 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7781 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:34:04 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.3000
+2026-02-19 18:34:15 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.50
+2026-02-19 18:34:32 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7650 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 200, 'subsample': 0.8}
+2026-02-19 18:34:32 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.5000
+2026-02-19 18:34:43 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Outer fold repeat=1 fold=0 seed=43
+2026-02-19 18:34:43 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.10
+2026-02-19 18:35:00 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7518 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:35:00 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.1000
+2026-02-19 18:35:11 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.30
+2026-02-19 18:35:28 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7660 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:35:28 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.3000
+2026-02-19 18:35:37 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.50
+2026-02-19 18:35:54 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7496 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:35:54 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.5000
+2026-02-19 18:36:05 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Outer fold repeat=1 fold=1 seed=43
+2026-02-19 18:36:05 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.10
+2026-02-19 18:36:22 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7488 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 1.0}
+2026-02-19 18:36:22 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.1000
+2026-02-19 18:36:32 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.30
+2026-02-19 18:36:48 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7893 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:36:48 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.3000
+2026-02-19 18:37:00 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.50
+2026-02-19 18:37:17 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7888 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 100, 'subsample': 1.0}
+2026-02-19 18:37:17 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.5000
+2026-02-19 18:37:27 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Outer fold repeat=1 fold=2 seed=43
+2026-02-19 18:37:27 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.10
+2026-02-19 18:37:43 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7416 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:37:43 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.1000
+2026-02-19 18:37:53 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.30
+2026-02-19 18:38:09 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7748 best_params={'colsample_bytree': 1.0, 'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:38:09 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.3000
+2026-02-19 18:38:18 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.50
+2026-02-19 18:38:34 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7865 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 200, 'subsample': 1.0}
+2026-02-19 18:38:34 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.5000
+2026-02-19 18:38:44 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Outer fold repeat=1 fold=3 seed=43
+2026-02-19 18:38:44 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.10
+2026-02-19 18:38:59 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7296 best_params={'colsample_bytree': 1.0, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 200, 'subsample': 0.8}
+2026-02-19 18:38:59 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.1000
+2026-02-19 18:39:12 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.30
+2026-02-19 18:39:32 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7698 best_params={'colsample_bytree': 1.0, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:39:32 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.3000
+2026-02-19 18:39:44 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.50
+2026-02-19 18:40:01 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7611 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:40:01 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.5000
+2026-02-19 18:40:10 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Outer fold repeat=1 fold=4 seed=43
+2026-02-19 18:40:10 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.10
+2026-02-19 18:40:25 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7692 best_params={'colsample_bytree': 1.0, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:40:25 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.1000
+2026-02-19 18:40:35 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.30
+2026-02-19 18:40:52 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7816 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 200, 'subsample': 0.8}
+2026-02-19 18:40:52 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.3000
+2026-02-19 18:41:02 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.50
+2026-02-19 18:41:18 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7754 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 200, 'subsample': 0.8}
+2026-02-19 18:41:18 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.5000
+2026-02-19 18:41:28 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Outer fold repeat=2 fold=0 seed=44
+2026-02-19 18:41:28 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.10
+2026-02-19 18:41:43 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7732 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:41:43 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.1000
+2026-02-19 18:41:56 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.30
+2026-02-19 18:42:13 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7767 best_params={'colsample_bytree': 1.0, 'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:42:13 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.3000
+2026-02-19 18:42:23 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.50
+2026-02-19 18:42:39 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7833 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 200, 'subsample': 0.8}
+2026-02-19 18:42:39 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.5000
+2026-02-19 18:42:48 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Outer fold repeat=2 fold=1 seed=44
+2026-02-19 18:42:48 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.10
+2026-02-19 18:43:04 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7598 best_params={'colsample_bytree': 1.0, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 1.0}
+2026-02-19 18:43:04 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.1000
+2026-02-19 18:43:14 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.30
+2026-02-19 18:43:32 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7800 best_params={'colsample_bytree': 1.0, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 200, 'subsample': 0.8}
+2026-02-19 18:43:32 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.3000
+2026-02-19 18:43:42 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.50
+2026-02-19 18:44:00 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7764 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 200, 'subsample': 0.8}
+2026-02-19 18:44:00 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.5000
+2026-02-19 18:44:11 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Outer fold repeat=2 fold=2 seed=44
+2026-02-19 18:44:11 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.10
+2026-02-19 18:44:27 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7630 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:44:27 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.1000
+2026-02-19 18:44:37 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.30
+2026-02-19 18:44:53 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7737 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:44:53 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.3000
+2026-02-19 18:45:06 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.50
+2026-02-19 18:45:27 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7893 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:45:27 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.5000
+2026-02-19 18:45:39 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Outer fold repeat=2 fold=3 seed=44
+2026-02-19 18:45:39 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.10
+2026-02-19 18:45:59 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7183 best_params={'colsample_bytree': 1.0, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:45:59 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.1000
+2026-02-19 18:46:12 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.30
+2026-02-19 18:46:31 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7703 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:46:31 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.3000
+2026-02-19 18:46:41 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.50
+2026-02-19 18:46:57 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7741 best_params={'colsample_bytree': 1.0, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:46:57 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.5000
+2026-02-19 18:47:06 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Outer fold repeat=2 fold=4 seed=44
+2026-02-19 18:47:06 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.10
+2026-02-19 18:47:22 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7547 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 1.0}
+2026-02-19 18:47:22 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.1000
+2026-02-19 18:47:31 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.30
+2026-02-19 18:47:47 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7462 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:47:47 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.3000
+2026-02-19 18:47:57 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.50
+2026-02-19 18:48:15 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7435 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:48:15 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.5000
+2026-02-19 18:48:26 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Outer fold repeat=3 fold=0 seed=45
+2026-02-19 18:48:26 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.10
+2026-02-19 18:48:43 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7331 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:48:43 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.1000
+2026-02-19 18:48:55 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.30
+2026-02-19 18:49:14 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7685 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:49:14 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.3000
+2026-02-19 18:49:25 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.50
+2026-02-19 18:49:41 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7616 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 200, 'subsample': 0.8}
+2026-02-19 18:49:41 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.5000
+2026-02-19 18:49:53 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Outer fold repeat=3 fold=1 seed=45
+2026-02-19 18:49:53 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.10
+2026-02-19 18:50:10 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7523 best_params={'colsample_bytree': 1.0, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 1.0}
+2026-02-19 18:50:11 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.1000
+2026-02-19 18:50:19 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.30
+2026-02-19 18:50:35 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7787 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:50:35 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.3000
+2026-02-19 18:50:45 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.50
+2026-02-19 18:51:02 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7807 best_params={'colsample_bytree': 1.0, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:51:02 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.5000
+2026-02-19 18:51:12 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Outer fold repeat=3 fold=2 seed=45
+2026-02-19 18:51:12 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.10
+2026-02-19 18:51:28 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7542 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:51:28 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.1000
+2026-02-19 18:51:40 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.30
+2026-02-19 18:51:58 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7801 best_params={'colsample_bytree': 1.0, 'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:51:58 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.3000
+2026-02-19 18:52:09 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.50
+2026-02-19 18:52:28 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7751 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:52:28 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.5000
+2026-02-19 18:52:41 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Outer fold repeat=3 fold=3 seed=45
+2026-02-19 18:52:41 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.10
+2026-02-19 18:52:56 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7480 best_params={'colsample_bytree': 1.0, 'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:52:56 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.1000
+2026-02-19 18:53:07 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.30
+2026-02-19 18:53:25 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7597 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:53:25 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.3000
+2026-02-19 18:53:36 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.50
+2026-02-19 18:53:52 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7602 best_params={'colsample_bytree': 1.0, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:53:52 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.5000
+2026-02-19 18:54:02 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Outer fold repeat=3 fold=4 seed=45
+2026-02-19 18:54:02 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.10
+2026-02-19 18:54:20 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7602 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 200, 'subsample': 0.8}
+2026-02-19 18:54:20 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.1000
+2026-02-19 18:54:30 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.30
+2026-02-19 18:54:49 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7652 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:54:49 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.3000
+2026-02-19 18:54:58 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.50
+2026-02-19 18:55:16 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7688 best_params={'colsample_bytree': 1.0, 'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:55:16 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.5000
+2026-02-19 18:55:27 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Outer fold repeat=4 fold=0 seed=46
+2026-02-19 18:55:27 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.10
+2026-02-19 18:55:42 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7309 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:55:42 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.1000
+2026-02-19 18:55:52 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.30
+2026-02-19 18:56:10 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7821 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:56:10 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.3000
+2026-02-19 18:56:22 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.50
+2026-02-19 18:56:40 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7678 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:56:40 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.5000
+2026-02-19 18:56:50 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Outer fold repeat=4 fold=1 seed=46
+2026-02-19 18:56:50 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.10
+2026-02-19 18:57:04 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7318 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:57:04 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.1000
+2026-02-19 18:57:14 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.30
+2026-02-19 18:57:31 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7741 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 200, 'subsample': 0.8}
+2026-02-19 18:57:31 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.3000
+2026-02-19 18:57:42 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.50
+2026-02-19 18:57:59 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7702 best_params={'colsample_bytree': 1.0, 'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:57:59 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.5000
+2026-02-19 18:58:09 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Outer fold repeat=4 fold=2 seed=46
+2026-02-19 18:58:09 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.10
+2026-02-19 18:58:26 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7509 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 1.0}
+2026-02-19 18:58:26 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.1000
+2026-02-19 18:58:37 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.30
+2026-02-19 18:58:54 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7794 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 200, 'subsample': 0.8}
+2026-02-19 18:58:54 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.3000
+2026-02-19 18:59:03 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.50
+2026-02-19 18:59:19 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7609 best_params={'colsample_bytree': 1.0, 'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 18:59:19 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.5000
+2026-02-19 18:59:29 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Outer fold repeat=4 fold=3 seed=46
+2026-02-19 18:59:29 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.10
+2026-02-19 18:59:44 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7198 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 200, 'subsample': 0.8}
+2026-02-19 18:59:44 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.1000
+2026-02-19 18:59:53 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.30
+2026-02-19 19:00:12 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7863 best_params={'colsample_bytree': 1.0, 'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 19:00:12 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.3000
+2026-02-19 19:00:25 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.50
+2026-02-19 19:00:43 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7678 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 200, 'subsample': 0.8}
+2026-02-19 19:00:43 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.5000
+2026-02-19 19:00:56 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Outer fold repeat=4 fold=4 seed=46
+2026-02-19 19:00:56 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.10
+2026-02-19 19:01:13 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7273 best_params={'colsample_bytree': 1.0, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 1.0}
+2026-02-19 19:01:13 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.1000
+2026-02-19 19:01:24 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.30
+2026-02-19 19:01:43 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7916 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 1.0}
+2026-02-19 19:01:43 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.3000
+2026-02-19 19:01:53 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Target resampling ratio=0.50
+2026-02-19 19:02:10 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Best inner-CV score (roc_auc)=0.7785 best_params={'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}
+2026-02-19 19:02:10 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Achieved train positive ratio=0.5000
+2026-02-19 19:02:29 INFO shap-it-like-its-hot run_id=mvs-hpo-aug-20260219-172801-fa40d122 seed=42 Done. Results written to results/mvs-hpo-aug-20260219-172801-fa40d122
